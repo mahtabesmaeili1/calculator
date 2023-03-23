@@ -39,9 +39,14 @@ form .display {
 form .display input {
   text-align: right;
   flex: 1;
+  padding: 20px;
   font-size: 45px;
   box-shadow: none;
+  background-color: #99b1b8;
 }
 form input.equal {
   width: 145px;
+}
+form input.operator {
+  color: #33ffd8;
 }
